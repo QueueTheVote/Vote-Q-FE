@@ -1,0 +1,20 @@
+@import "~bootstrap/scss/bootstrap";
+@import "custom";
+
+// Custom Button Styling
+
+$newbtn: #00adb5;
+
+.btn-primary {
+    @include button-variant($newbtn, darken($newbtn, 7.5%), darken($newbtn, 10%), lighten($newbtn,5%), lighten($newbtn, 10%), darken($newbtn,30%));
+}
+
+.btn-outline-primary {
+    @include button-outline-variant($newbtn, #303841, lighten($newbtn,5%), $newbtn);
+}
+
+// END Custom Button Styling
+
+.App {
+  text-align: center;
+}
