@@ -1,30 +1,12 @@
-import React, { Component, useState, useEffect } from "react";
-import CivicDataService from "../../api/CivicDataService";
+import React, { useContext, useState, useEffect } from "react";
 import CenterListItem from "./CenterListItem";
+import { AppContext } from "../app/App";
 
-function CenterList() {
-  const [address, setAddress] = useState([]);
-  const [pollingCenterList, setPolingCenterList] = useState([]);
-  const [election, setElection] = useState({});
-
-  useEffect(() => {
-    retrieveCenterList();
-  }, []);
-
-  const retrieveCenterList = () => {
-    CivicDataService.getAll()
-      .then((response) => {
-        setElection(response.election);
-        setPolingCenterList(response.pollingLocations);
-        console.log(response);
-      })
-      .catch((e) => {
-        console.log(e);
-      });
-  };
+function CenterList({ address }) {
+  const { state } = useContext(AppContext);
 
   const renderCenterList = () => {
-    return pollingCenterList.map((location) => (
+    return state.votingCenters.map((location) => (
       <CenterListItem
         address={location.address}
         pollingHours={location.pollingHours}

@@ -9,8 +9,10 @@ const address = {
 };
 
 // Sample URL address=8613%20W%20colorado%20lakewood%20colorado&key=AIzaSyAuXmWWeWjIqdiPBPCpovTOPu-g5wVopog
-export const getAll = async() => {
-  const url =
+// https://www.googleapis.com/civicinfo/v2/voterinfo?address=80232&electionId=2000&key=[YOUR_API_KEY]
+
+export const getAll = async () => {
+  let url =
     LOCATIONS_URL +
     "address=" +
     address.street +
@@ -18,10 +20,9 @@ export const getAll = async() => {
     address.state +
     "&key=" +
     KEY;
-  const response = await fetch(url).then(data => data.json())
+  const response = await fetch(url).then((data) => data.json());
   return response;
 };
-
 
 export default {
   getAll,
