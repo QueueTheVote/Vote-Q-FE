@@ -27,7 +27,9 @@ function App() {
   return (
     <div className="App">
       <AppContext.Provider value={{ state, dispatch }}>
-        <Home />
+        <Route exact path="/">
+         <Home />
+        </Route>
         <Route exact path="/voting-centers">
           <CenterContainer />
         </Route>
