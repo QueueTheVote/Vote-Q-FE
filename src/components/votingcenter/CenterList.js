@@ -18,14 +18,7 @@ function CenterList({ address }) {
     ));
   };
 
-  return (
-    <section>
-      <header>
-        <h2>Voting Locations Nearby:</h2>
-      </header>
-      <div className="row justify-content-center">{renderCenterList()}</div>;
-    </section>
-  );
+  return <div className="row justify-content-center">{renderCenterList()}</div>;
 }
 
 export default CenterList;
