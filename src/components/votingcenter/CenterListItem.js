@@ -29,7 +29,7 @@ const CenterListItem = ({
         </a>
       </div>
       <div className="card-footer text-muted">
-        <p>Hours of Operation:</p>
+        <p>Polling Hours:</p>
         {pollingHours}
       </div>
     </article>
