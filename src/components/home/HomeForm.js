@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 
 function HomeForm() {
-  const dispatch = useContext(AppContext)[1];
+  const {dispatch} = useContext(AppContext);
   const [address, changeAddress] = useState(null);
 
   const handleSubmit = (e) => {

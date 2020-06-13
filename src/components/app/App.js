@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="App">
-      <AppContext.Provider value={[state, dispatch]}>
+      <AppContext.Provider value={{state, dispatch}}>
         <Home/>
         <CenterContainer/>
       </AppContext.Provider>
