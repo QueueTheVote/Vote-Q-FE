@@ -63,6 +63,9 @@ In addition, a user is able to see what the current queue size is for each given
 
 ### 3. Voting Center detail
 
+![image](https://user-images.githubusercontent.com/27719824/84601684-5de9d680-ae3f-11ea-8829-dc560c944324.png)
+
+
 When selecting a voting center the user is able to review the details of the voting center: name, address, queue size, as well as proceed to enter into the queue by filling out the registration form.
 
 ### 4. Queue Confirmatiom
