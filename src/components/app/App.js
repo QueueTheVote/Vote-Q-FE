@@ -1,9 +1,10 @@
 import "../../styles/App.scss";
 import CenterContainer from "../votingcenter/CenterContainer";
-import { Route } from "react-router-dom";
+import { Route, Redirect } from "react-router-dom";
 import React, { createContext, useReducer } from "react";
 import "../../styles/App.scss";
 import Home from "../home/Home";
+import NavigationBar from "../navbar/NavigationBar";
 
 const initialState = {
   address: null,
@@ -27,11 +28,10 @@ function App() {
   return (
     <div className="App">
       <AppContext.Provider value={{ state, dispatch }}>
-        <Route exact path="/">
-         <Home />
-        </Route>
+        <Route path="/" component={NavigationBar} />
+        <Route exact path="/" component={Home} />
         <Route exact path="/voting-centers">
-          <CenterContainer />
+          {state.address ? <CenterContainer /> : <Redirect to="/" />}
         </Route>
       </AppContext.Provider>
     </div>
