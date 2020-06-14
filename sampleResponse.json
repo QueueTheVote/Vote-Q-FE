@@ -1,0 +1,880 @@
+{
+  "election": {
+    "id": "4977",
+    "name": "Colorado State Primary Election",
+    "electionDay": "2020-06-30",
+    "ocdDivisionId": "ocd-division/country:us/state:co"
+  },
+  "normalizedInput": {
+    "line1": "8613 West Colorado Place",
+    "city": "Lakewood",
+    "state": "CO",
+    "zip": "80232"
+  },
+  "pollingLocations": [
+    {
+      "address": {
+        "locationName": "Lakewood Link Recreation Center",
+        "line1": "1295 South Reed Street",
+        "city": "Lakewood",
+        "state": "CO",
+        "zip": "80232"
+      },
+      "pollingHours": "Tue, Jun 30: 7 am - 7 pm",
+      "startDate": "2020-06-30",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Arvada City Hall",
+        "line1": "8101 Ralston Road",
+        "city": "Arvada",
+        "state": "CO",
+        "zip": "80002"
+      },
+      "pollingHours": "Tue, Jun 30: 7 am - 7 pm",
+      "startDate": "2020-06-30",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "South Jeffco Service Center",
+        "line1": "11139 Bradford Road",
+        "city": "Littleton",
+        "state": "CO",
+        "zip": "80127"
+      },
+      "pollingHours": "Tue, Jun 30: 7 am - 7 pm",
+      "startDate": "2020-06-30",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Jeffco Elections Division",
+        "line1": "3500 Illinois Street",
+        "city": "Golden",
+        "state": "CO",
+        "zip": "80401"
+      },
+      "pollingHours": "Tue, Jun 30: 7 am - 7 pm",
+      "startDate": "2020-06-30",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Standley Lake High School",
+        "line1": "9300 West 104th Avenue",
+        "city": "Westminster",
+        "state": "CO",
+        "zip": "80021"
+      },
+      "pollingHours": "Tue, Jun 30: 7 am - 7 pm",
+      "startDate": "2020-06-30",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Mobile - Evergreen Library",
+        "line1": "5000 County Highway 73",
+        "city": "Evergreen",
+        "state": "CO",
+        "zip": "80439"
+      },
+      "pollingHours": "Tue, Jun 30: 7 am - 7 pm",
+      "startDate": "2020-06-30",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    }
+  ],
+  "earlyVoteSites": [
+    {
+      "address": {
+        "locationName": "Lakewood Link Recreation Center",
+        "line1": "1295 South Reed Street",
+        "city": "Lakewood",
+        "state": "CO",
+        "zip": "80232"
+      },
+      "pollingHours": "Mon, Jun 22: 8 am - 5 pm\nTue, Jun 23: 8 am - 5 pm\nWed, Jun 24: 8 am - 5 pm\nThu, Jun 25: 8 am - 5 pm\nFri, Jun 26: 8 am - 5 pm\nSat, Jun 27: 8 am - 5 pm\nMon, Jun 29: 8 am - 5 pm",
+      "startDate": "2020-06-22",
+      "endDate": "2020-06-29",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Arvada City Hall",
+        "line1": "8101 Ralston Road",
+        "city": "Arvada",
+        "state": "CO",
+        "zip": "80002"
+      },
+      "pollingHours": "Mon, Jun 22: 8 am - 5 pm\nTue, Jun 23: 8 am - 5 pm\nWed, Jun 24: 8 am - 5 pm\nThu, Jun 25: 8 am - 5 pm\nFri, Jun 26: 8 am - 5 pm\nSat, Jun 27: 8 am - 5 pm\nMon, Jun 29: 8 am - 5 pm",
+      "startDate": "2020-06-22",
+      "endDate": "2020-06-29",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "South Jeffco Service Center",
+        "line1": "11139 Bradford Road",
+        "city": "Littleton",
+        "state": "CO",
+        "zip": "80127"
+      },
+      "pollingHours": "Mon, Jun 22: 8 am - 5 pm\nTue, Jun 23: 8 am - 5 pm\nWed, Jun 24: 8 am - 5 pm\nThu, Jun 25: 8 am - 5 pm\nFri, Jun 26: 8 am - 5 pm\nSat, Jun 27: 8 am - 5 pm\nMon, Jun 29: 8 am - 5 pm",
+      "startDate": "2020-06-22",
+      "endDate": "2020-06-29",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Jeffco Elections Division",
+        "line1": "3500 Illinois Street",
+        "city": "Golden",
+        "state": "CO",
+        "zip": "80401"
+      },
+      "pollingHours": "Mon, Jun 22: 8 am - 5 pm\nTue, Jun 23: 8 am - 5 pm\nWed, Jun 24: 8 am - 5 pm\nThu, Jun 25: 8 am - 5 pm\nFri, Jun 26: 8 am - 5 pm\nSat, Jun 27: 8 am - 5 pm\nMon, Jun 29: 8 am - 5 pm",
+      "startDate": "2020-06-22",
+      "endDate": "2020-06-29",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Standley Lake High School",
+        "line1": "9300 West 104th Avenue",
+        "city": "Westminster",
+        "state": "CO",
+        "zip": "80021"
+      },
+      "pollingHours": "Mon, Jun 22: 8 am - 5 pm\nTue, Jun 23: 8 am - 5 pm\nWed, Jun 24: 8 am - 5 pm\nThu, Jun 25: 8 am - 5 pm\nFri, Jun 26: 8 am - 5 pm\nSat, Jun 27: 8 am - 5 pm\nMon, Jun 29: 8 am - 5 pm",
+      "startDate": "2020-06-22",
+      "endDate": "2020-06-29",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Mobile - Evergreen Library",
+        "line1": "5000 County Highway 73",
+        "city": "Evergreen",
+        "state": "CO",
+        "zip": "80439"
+      },
+      "pollingHours": "Mon, Jun 22: 8 am - 5 pm\nTue, Jun 23: 8 am - 5 pm\nWed, Jun 24: 8 am - 5 pm\nThu, Jun 25: 8 am - 5 pm\nFri, Jun 26: 8 am - 5 pm\nSat, Jun 27: 8 am - 5 pm\nMon, Jun 29: 8 am - 5 pm",
+      "startDate": "2020-06-22",
+      "endDate": "2020-06-29",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    }
+  ],
+  "dropOffLocations": [
+    {
+      "address": {
+        "locationName": "Carmody Recreation Center",
+        "line1": "2200 South Kipling Street",
+        "city": "Lakewood",
+        "state": "CO",
+        "zip": "80227"
+      },
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Lakewood Link Recreation Center",
+        "line1": "1295 South Reed Street",
+        "city": "Lakewood",
+        "state": "CO",
+        "zip": "80232"
+      },
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Lakewood City Hall",
+        "line1": "480 South Allison Parkway",
+        "city": "Lakewood",
+        "state": "CO",
+        "zip": "80226"
+      },
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Green Mountain Recreation Center",
+        "line1": "13198 West Green Mountain Drive",
+        "city": "Lakewood",
+        "state": "CO",
+        "zip": "80227"
+      },
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Jeffco Public Health",
+        "line1": "645 Parfet Street",
+        "city": "Lakewood",
+        "state": "CO",
+        "zip": "80215"
+      },
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Lakewood Motor Vehicle",
+        "line1": "2099 Wadsworth Boulevard",
+        "city": "Lakewood",
+        "state": "CO",
+        "zip": "80214"
+      },
+      "notes": "This is a drop off location inside the building",
+      "pollingHours": "Wed, Jun 10: 8:00 am - 4:30 pm\nThu, Jun 11: 8:00 am - 4:30 pm\nFri, Jun 12: 8:00 am - 4:30 pm\nMon, Jun 15: 8:00 am - 4:30 pm\nTue, Jun 16: 8:00 am - 4:30 pm\nWed, Jun 17: 8:00 am - 4:30 pm\nThu, Jun 18: 8:00 am - 4:30 pm\nFri, Jun 19: 8:00 am - 4:30 pm\nMon, Jun 22: 8:00 am - 4:30 pm\nTue, Jun 23: 8:00 am - 4:30 pm\nWed, Jun 24: 8:00 am - 4:30 pm\nThu, Jun 25: 8:00 am - 4:30 pm\nFri, Jun 26: 8:00 am - 4:30 pm\nMon, Jun 29: 8:00 am - 4:30 pm\nTue, Jun 30: 7 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Lakewood Library",
+        "line1": "10200 West 20th Avenue",
+        "city": "Lakewood",
+        "state": "CO",
+        "zip": "80215"
+      },
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Wheat Ridge City Hall",
+        "line1": "7500 West 29th Avenue",
+        "city": "Wheat Ridge",
+        "state": "CO",
+        "zip": "80033"
+      },
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Columbine Library",
+        "line1": "7706 West Bowles Avenue",
+        "city": "Littleton",
+        "state": "CO",
+        "zip": "80123"
+      },
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Red Rocks Community College Environmental Technology Building",
+        "line1": "13302 Fox Run",
+        "city": "Lakewood",
+        "state": "CO",
+        "zip": "80228"
+      },
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Edgewater City Hall",
+        "line1": "1800 North Harlan Street",
+        "city": "Edgewater",
+        "state": "CO",
+        "zip": "80214"
+      },
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Lilley Gulch Recreation Center",
+        "line1": "6147 South Holland Way",
+        "city": "Littleton",
+        "state": "CO",
+        "zip": "80123"
+      },
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Anderson Park",
+        "line1": "9110 West 44th Avenue",
+        "city": "Wheat Ridge",
+        "state": "CO",
+        "zip": "80033"
+      },
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Ridge Recreation Center",
+        "line1": "6613 South Ward Street",
+        "city": "Littleton",
+        "state": "CO",
+        "zip": "80127"
+      },
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Arvada City Hall",
+        "line1": "8101 Ralston Road",
+        "city": "Arvada",
+        "state": "CO",
+        "zip": "80002"
+      },
+      "notes": "Walk-up",
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Arvada City Hall",
+        "line1": "8001 Ralston Road",
+        "city": "Arvada",
+        "state": "CO",
+        "zip": "80002"
+      },
+      "notes": "Drive Thru",
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Jeffco Courts & Admin Atrium",
+        "line1": "100 Jefferson County Parkway",
+        "city": "Golden",
+        "state": "CO",
+        "zip": "80401"
+      },
+      "notes": "This is a drop off location inside the building on the left side",
+      "pollingHours": "Wed, Jun 10: 7:30 am - 5:30 pm\nThu, Jun 11: 7:30 am - 5:30 pm\nFri, Jun 12: 7:30 am - 5:30 pm\nMon, Jun 15: 7:30 am - 5:30 pm\nTue, Jun 16: 7:30 am - 5:30 pm\nWed, Jun 17: 7:30 am - 5:30 pm\nThu, Jun 18: 7:30 am - 5:30 pm\nFri, Jun 19: 7:30 am - 5:30 pm\nMon, Jun 22: 7:30 am - 5:30 pm\nTue, Jun 23: 7:30 am - 5:30 pm\nWed, Jun 24: 7:30 am - 5:30 pm\nThu, Jun 25: 7:30 am - 5:30 pm\nFri, Jun 26: 7:30 am - 5:30 pm\nMon, Jun 29: 7:30 am - 5:30 pm\nTue, Jun 30: 7 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Jeffco Courts & Admin Northeast Side",
+        "line1": "100 Jefferson County Parkway",
+        "city": "Golden",
+        "state": "CO",
+        "zip": "80401"
+      },
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "South Jeffco Service Center",
+        "line1": "11139 Bradford Road",
+        "city": "Littleton",
+        "state": "CO",
+        "zip": "80127"
+      },
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Jeffco Elections Division",
+        "line1": "3500 Illinois Street",
+        "city": "Golden",
+        "state": "CO",
+        "zip": "80401"
+      },
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Arvada Motor Vehicle",
+        "line1": "6510 Wadsworth Boulevard",
+        "city": "Arvada",
+        "state": "CO",
+        "zip": "80003"
+      },
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Colorado School of Mines",
+        "line1": "1400 Illinois Street",
+        "city": "Golden",
+        "state": "CO",
+        "zip": "80401"
+      },
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Golden City Hall",
+        "line1": "911 10th Street",
+        "city": "Golden",
+        "state": "CO",
+        "zip": "80401"
+      },
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Standley Lake Library",
+        "line1": "8485 Kipling Street",
+        "city": "Arvada",
+        "state": "CO",
+        "zip": "80005"
+      },
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Apex Recreation Center",
+        "line1": "13150 West 72nd Avenue",
+        "city": "Arvada",
+        "state": "CO",
+        "zip": "80005"
+      },
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "West Woods Community Police Station",
+        "line1": "6644 Kendrick Drive",
+        "city": "Arvada",
+        "state": "CO",
+        "zip": "80007"
+      },
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Buchanan Recreation Center",
+        "line1": "32003 Ellingwood Trail",
+        "city": "Evergreen",
+        "state": "CO",
+        "zip": "80439"
+      },
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Westminster Sports Center",
+        "line1": "6051 West 95th Avenue",
+        "city": "Westminster",
+        "state": "CO",
+        "zip": "80031"
+      },
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Whisper Creek Community Station",
+        "line1": "14360 West 89th Drive",
+        "city": "Arvada",
+        "state": "CO",
+        "zip": "80005"
+      },
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "West View Recreation Center",
+        "line1": "10747 West 108th Avenue",
+        "city": "Westminster",
+        "state": "CO",
+        "zip": "80021"
+      },
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Westminster City Park Rec Center",
+        "line1": "10455 Sheridan Boulevard",
+        "city": "Westminster",
+        "state": "CO",
+        "zip": "80020"
+      },
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Evergreen Library",
+        "line1": "5000 County Highway 73",
+        "city": "Evergreen",
+        "state": "CO",
+        "zip": "80439"
+      },
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    },
+    {
+      "address": {
+        "locationName": "Conifer Marketplace",
+        "line1": "10875 US Highway 285",
+        "city": "Conifer",
+        "state": "CO",
+        "zip": "80433"
+      },
+      "pollingHours": "Wed, Jun 10: 12:00 am - 11:59 pm\nThu, Jun 11: 12:00 am - 11:59 pm\nFri, Jun 12: 12:00 am - 11:59 pm\nSat, Jun 13: 12:00 am - 11:59 pm\nSun, Jun 14: 12:00 am - 11:59 pm\nMon, Jun 15: 12:00 am - 11:59 pm\nTue, Jun 16: 12:00 am - 11:59 pm\nWed, Jun 17: 12:00 am - 11:59 pm\nThu, Jun 18: 12:00 am - 11:59 pm\nFri, Jun 19: 12:00 am - 11:59 pm\nSat, Jun 20: 12:00 am - 11:59 pm\nSun, Jun 21: 12:00 am - 11:59 pm\nMon, Jun 22: 12:00 am - 11:59 pm\nTue, Jun 23: 12:00 am - 11:59 pm\nWed, Jun 24: 12:00 am - 11:59 pm\nThu, Jun 25: 12:00 am - 11:59 pm\nFri, Jun 26: 12:00 am - 11:59 pm\nSat, Jun 27: 12:00 am - 11:59 pm\nSun, Jun 28: 12:00 am - 11:59 pm\nMon, Jun 29: 12:00 am - 11:59 pm\nTue, Jun 30: 12 am - 7 pm",
+      "startDate": "2020-06-08",
+      "endDate": "2020-06-30",
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    }
+  ],
+  "state": [
+    {
+      "name": "Colorado",
+      "electionAdministrationBody": {
+        "electionInfoUrl": "http://www.elections.colorado.gov",
+        "electionRegistrationUrl": "https://www.govotecolorado.gov",
+        "electionRegistrationConfirmationUrl": "https://www.govotecolorado.gov",
+        "absenteeVotingInfoUrl": "https://www.govotecolorado.gov",
+        "votingLocationFinderUrl": "https://www.govotecolorado.gov",
+        "ballotInfoUrl": "https://www.sos.state.co.us/voter/pages/pub/olvr/findVoterReg.xhtml",
+        "electionRulesUrl": "http://www.sos.state.co.us/pubs/elections/lawsRulesResources.html"
+      },
+      "local_jurisdiction": {
+        "name": "Jefferson County",
+        "electionAdministrationBody": {
+          "electionInfoUrl": "http://jeffco.us/elections/",
+          "physicalAddress": {
+            "line1": "3500 ILLINOIS ST STE 1100",
+            "city": "GOLDEN",
+            "state": "CO",
+            "zip": "80401-6022"
+          },
+          "electionOfficials": [
+            {
+              "officePhoneNumber": "(303) 271-8111",
+              "emailAddress": "elections@votejeffco.com"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "name": "DemocracyWorks",
+            "official": false
+          }
+        ]
+      },
+      "sources": [
+        {
+          "name": "Voting Information Project",
+          "official": true
+        }
+      ]
+    }
+  ],
+  "mailOnly": true,
+  "kind": "civicinfo#voterInfoResponse"
+}

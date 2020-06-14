@@ -20,6 +20,8 @@ const reducer = (state, action) => {
       return { ...state, votingCenters: action.payload };
     case "changeSelectedCenter":      
       return { ...state, selectedCenter: action.payload };
+    case "updateQueuePop": 
+      return { ...state, votingCenters: action.payload };
     default:
       return state;
   }

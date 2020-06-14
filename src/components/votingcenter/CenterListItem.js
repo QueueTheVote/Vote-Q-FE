@@ -1,6 +1,9 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import { AppContext } from "../app/App";
 import { useHistory } from "react-router-dom";
+
+//Move to Add a Queue Location
+import { postToQueue } from "../../api/CivicDataService";
 
 const CenterListItem = (props) => {
   const {
@@ -9,19 +12,39 @@ const CenterListItem = (props) => {
     address,
     pollingHours,
     typeOfVote,
-    queuePopulation
+    queuePopulation,
   } = props;
 
   const history = useHistory();
-  const { dispatch } = useContext(AppContext);
+  const { state, dispatch } = useContext(AppContext);
 
-  const handleClick = (props) => {    
+  const queueUpdateAction = (queue) => {
+    console.log(queue);
+    let updatedQueue = state.votingCenters.map((votingCenter) => {
+      if (votingCenter.id === queue.id) {
+        votingCenter.currentQueue = queue;
+        return votingCenter;
+      }
+      return votingCenter;
+    });
+    return updatedQueue;
+  };
+
+  const handleClick = (props) => {
+    postToQueue(props.id).then((queue) => {
+      let data = queueUpdateAction(queue);
+      dispatch({
+        type: "updateQueuePop",
+        payload: data,
+      });
+    });
     dispatch({
       type: "changeSelectedCenter",
-      payload: props
+      payload: props,
     });
+
     history.push(`/voting-centers/${id}`);
-  }
+  };
 
   return (
     <article className="card padding-reset border-bg-vote col-md-5 mb-3 ml-1 mr-1">
