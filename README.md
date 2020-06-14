@@ -1,4 +1,67 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# VotingQ
+
+*A mobile-first web application that aims to combat voter suppression while optimizing voting centers operating in a Covid-19 context*
+
+**Developed as part of the Black Lives Matter Hackathon**
+
+## Overview 
+
+This application was developed over the course of 4 days. It is built with React and React-Bootstrap on the FrontEnd with a Scala BackEnd and PostgreSQL database. The app consumes the Google Civic Information API as well as the Google Maps API. 
+
+
+The idea of the application was inspired by recent primary elections in states like Wisconsin and Georgia, which were characterized by long lines, large crowds, and lack of direction by government officials. The solution is to apply what restaurants do: establish a digital queue that notifies users their current position and estimated wait time, so they can show up to the voting center when the voting center is ready to receive them.  
+
+
+In the context of the Black Lives Matter movement, the application hopes to assist voters be prepared to overcome forms of voter suppression, while also providing a means to vote safely and efficiently during the Covid-19 pandemic, two forces that have disproportiontely impacted the Black community. 
+
+
+## Application Workflow
+
+### 1. Home Page 
+
+![image](https://user-images.githubusercontent.com/27719824/84600656-393e3080-ae38-11ea-9ef4-9e5076b49db2.png)
+
+
+When a user first opens the application they are taken to the home page, where they are prompted to enter their address or zipcode to find the closest voting centers near them. This redirects them to the a new page where they are able to view the nearest voting centers in their area for an upcoming election.
+
+### 2. Voting Centers
+
+![image](https://user-images.githubusercontent.com/27719824/84600767-00528b80-ae39-11ea-8601-150ed9ba2a60.png)
+
+A list of voting centers populates once a valid address / zipcode have been submitted. The voting center displays all available information from the Google Civic Information API, which is maintained and updated regularly. Some of the information displayed include the name of the building that is operating as a voting center, the hours of operation, as well as the day of the election. 
+
+In addition, a user is able to see what the current queue size is for each given voting center. This allows them to make an informed decision on which voting center they may want to go to in order to vote in that given election.
+
+### 3. Voting Center detail
+
+When selecting a voting center the user is able to review the details of the voting center: name, address, queue size, as well as proceed to enter into the queue by filling out the registration form.
+
+### 4. Queue Confirmatiom
+
+![image](https://user-images.githubusercontent.com/27719824/84601281-3d6c4d00-ae3c-11ea-9575-4916b7649e66.png)
+
+Once a user has successfully been added to the queue they will be redirected to a confirmation page that has all the details of their appointment. They can see a embedded map (via the Google Maps API), as well as estimated time to arrival from their entered address, how many people are before them in the queue, and eta to when their turn will be up to vote.
+
+### 5. Voter Checklist
+
+A user can also review a checklist of important information and required documents they will need in order to have a seamless voting experience. These requirement vary by state, but in general they ought to know if they are already registered to vote in their state, have multiple forms of accepted identification, as well as a mask to protect themselve and others from possible Covid infection. 
+
+
+## Tech Stack 
+
+- React
+- React-Bootstrap
+- Scala
+- PostgreSQL
+
+
+
+## Future iterations 
+
+In future iterations of this application our team hopes to incorporate a voting center portal, where voting centers will be able to manage their respective queues. We also hope to have web sockets and progressive web app functionality so that information remains up to date, while other information is cached in the event that a user does not have a stable internet connection. 
+
+Additionally, we hope to aggregate, and embed all the available resources for voters into the application making it a one stop shop for having a seamless voting experience.
+
 
 ## Available Scripts
 
@@ -27,15 +90,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
 
