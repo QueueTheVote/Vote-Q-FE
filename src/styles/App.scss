@@ -1,6 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 @import "custom";
-
+@import "HomePage";
 
 // Custom Button Styling
 
@@ -16,19 +16,34 @@ $votePurple:#725CFF;
 
 // END Custom Button Styling
 
-.card-header {
-  background-color: #eeeeee;
+.navbar-brand {
+  height: 8vh;
+  
+  img {
+    height: 100%;
+  }
+}
+
+.card {
+  border: none;
+  border-radius: 20px;
 }
 
 .App {
+  height: 100vh;
   text-align: center;
+}
+
+.margin-lg {
+  margin-top: 20vh;  
 }
 
 .padding-reset{
   padding:0;
 }
 
-.bg-vote{
+.bg-vote:first-child{
+  border-radius: 15px 15px 0 0;
   background-color: $votePurple;
 }
 .border-bg-vote{
