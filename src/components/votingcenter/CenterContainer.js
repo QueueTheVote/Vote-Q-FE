@@ -21,7 +21,7 @@ function CenterContainer() {
     <div className="row d-flex justify-content-center mt-2">
       <div className="col-8">
       <header>
-        <h3>Your Voting Centers:</h3>
+        <h3>Your Voting Centers</h3>
       </header>
         <CenterList />
       </div>

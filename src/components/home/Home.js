@@ -10,7 +10,7 @@ function Home(props) {
         </div>
         <div className="card-body">
           <p>
-            Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Morbi mauris lectus, efficitur eu blandit quis, auctor a mauris. Pellentesque luctus arcu augue. Donec quis enim nec risus interdum posuere eu at tellus. Etiam iaculis eros leo, vitae posuere sapien lobortis interdum. Etiam eu vulputate purus, at tristique metus. Pellentesque felis neque, sodales in quam iaculis, tristique euismod nisi. In placerat nibh vitae faucibus malesuada. Vivamus blandit ante neque, et bibendum dolor aliquam a. Donec felis lectus, viverra non pulvinar vel, fermentum ut tortor.
+            Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Morbi mauris lectus, efficitur eu blandit quis, auctor a mauris.
           </p>
           <HomeForm/>
         </div>
