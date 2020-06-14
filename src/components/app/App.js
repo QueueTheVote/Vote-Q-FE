@@ -5,6 +5,7 @@ import React, { createContext, useReducer } from "react";
 import "../../styles/App.scss";
 import Home from "../home/Home";
 import NavigationBar from "../navbar/NavigationBar";
+import QueueConfirmation from '../queue/QueueConfirmation';
 
 const initialState = {
   address: null,
@@ -38,6 +39,12 @@ function App() {
         </Route>
         <Route path="/voting-centers/:id">
           {state.selectedCenter ? <CenterDetail/> : <Redirect to="/" />}
+        </Route>
+        <Route path="/confirmation">
+          {true  ? <QueueConfirmation votingCenter={'Union Station'}
+          distance={'20'} address={'1701 Wynkoop St, Denver, CO 80211'}
+          queueNum={'15'} eta={'25'} confirmationID={'GF14L7'}
+          /> : <Redirect to="/" />}
         </Route>
       </AppContext.Provider>
     </div>
