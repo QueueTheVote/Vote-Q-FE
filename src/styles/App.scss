@@ -1,24 +1,32 @@
 @import "~bootstrap/scss/bootstrap";
 @import "custom";
 @import "HomePage";
+@import "CenterDetail";
 
 // Custom Button Styling
 
 $newbtn: #00adb5;
-$earlyVoteBg:#FB5722;
-$votePurple:#725CFF;
+$earlyVoteBg: #fb5722;
+$votePurple: #725cff;
 
 .btn-primary {
-    @include button-variant($newbtn, darken($newbtn, 7.5%), darken($newbtn, 10%), lighten($newbtn,1%), lighten($newbtn, 3%), darken($newbtn,30%));
+  @include button-variant(
+    $newbtn,
+    darken($newbtn, 7.5%),
+    darken($newbtn, 10%),
+    lighten($newbtn, 1%),
+    lighten($newbtn, 3%),
+    darken($newbtn, 30%)
+  );
 
-    border: none;
+  border: none;
 }
 
 // END Custom Button Styling
 
 .navbar-brand {
   height: 8vh;
-  
+
   img {
     height: 100%;
   }
@@ -29,28 +37,41 @@ $votePurple:#725CFF;
   border-radius: 20px;
 }
 
+.card-header,
+.card-footer {
+  background-color: rgba(255, 255, 255, 0);
+}
+
 .App {
   height: 100vh;
   text-align: center;
 }
 
 .margin-lg {
-  margin-top: 20vh;  
+  margin-top: 15vh;
 }
 
-.padding-reset{
-  padding:0;
+.padding-reset {
+  padding: 0;
 }
 
-.bg-vote:first-child{
-  border-radius: 15px 15px 0 0;
+.bg-vote:first-child {
+  border-radius: 15px 15px 0 0 !important;
   background-color: $votePurple;
 }
 
-.border-bg-vote{
+.border-bg-vote {
   border-color: $votePurple;
 }
 
-.active{
-  color:red!important;
+.active {
+  color: red !important;
+}
+
+.voting-centers {
+  .card {
+    border: none;
+    border-radius: 15px !important;
+    padding: 0 !important;
+  }
 }

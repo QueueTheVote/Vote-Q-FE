@@ -12,6 +12,7 @@ function CenterList() {
         address={location.address}
         pollingHours={location.pollingHours}
         queuePopulation={location.currentQueue.size}
+        queue = {location.currentQueue}
         typeOfVote="Election Day"
         name={location.name}
         key={location.name}

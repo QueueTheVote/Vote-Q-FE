@@ -22,7 +22,7 @@ function CenterContainer() {
     <div className="row d-flex justify-content-center mt-2">
       <div className="col-10">
       <header className="my-4">
-        <h3>Your Voting Centers</h3>
+        <h2>Your Voting Centers</h2>
       </header>
         <CenterList />
       </div>
