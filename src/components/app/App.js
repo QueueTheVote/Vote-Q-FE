@@ -1,4 +1,3 @@
-import "../../styles/App.scss";
 import CenterContainer from "../votingcenter/CenterContainer";
 import { Route } from "react-router-dom";
 import React, { createContext, useReducer } from "react";

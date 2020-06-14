@@ -1,8 +1,8 @@
-import React, { useContext, useState, useEffect } from "react";
+import React, { useContext } from "react";
 import CenterListItem from "./CenterListItem";
 import { AppContext } from "../app/App";
 
-function CenterList({ address }) {
+function CenterList() {
   const { state } = useContext(AppContext);
 
   const renderCenterList = () => {

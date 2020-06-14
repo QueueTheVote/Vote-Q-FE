@@ -8,7 +8,6 @@ function CenterContainer() {
 
   // this useEffect is just to check the value, you can totally remove it
   useEffect(() => {
-    console.log(state.address);
     CivicDataService.getAll().then((response) => {
       dispatch({
         type: "updateCenterLocations",
