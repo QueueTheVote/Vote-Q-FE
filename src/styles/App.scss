@@ -16,12 +16,38 @@ $votePurple:#725CFF;
 
 // END Custom Button Styling
 
-.card-header {
-  background-color: #eeeeee;
+.img-bottom-right {
+  height: 40vh;
+  position: fixed;
+  bottom: 0; right: 0;
+  z-index: -1;
+}
+
+.home {
+  position: relative;
+
+  img {
+    opacity: 0.1;
+    position: absolute;
+    top: -12vh;
+  }
+}
+
+.search-icon {
+  width: calc(15px + 0.75vw);
+}
+
+.card {
+  border: none;
+  border-radius: 20px;
 }
 
 .App {
   text-align: center;
+}
+
+.margin-lg {
+  margin-top: 25vh;  
 }
 
 .padding-reset{
