@@ -35,9 +35,11 @@ export default function QueueForm() {
 
   return (
     <div>
-      <button className="btn btn-primary" onClick={() => handleClick()}>
-        <Link to="/confirmation">Join Queue!</Link>
-      </button>
+      <Link to="/confirmation">
+        <button className="btn btn-primary" onClick={() => handleClick()}>
+          Join Queue!
+        </button>
+      </Link>
     </div>
   );
 }
