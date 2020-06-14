@@ -10,9 +10,10 @@ function CenterContainer() {
   useEffect(() => {
     console.log(state.address);
     CivicDataService.getAll().then((response) => {
+      console.log(response)
       dispatch({
         type: "updateCenterLocations",
-        payload: response.pollingLocations,
+        payload: response,
       });
     });
   }, [state.address]);
