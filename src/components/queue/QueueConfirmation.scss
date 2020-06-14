@@ -1,0 +1,74 @@
+@import '../../../custom.scss';
+
+.queue-confirmation-main {
+  background-color: #eeeeee;
+  height: 100vh;
+  h2 {
+    color: $primary;
+    font-weight: bold;
+  }
+  h4 {
+    color: gray;
+    margin-top: 1rem;
+  }
+  h3 {
+    color: black;
+    margin-top: 2rem;
+    span {
+      font-weight: bold;
+    }
+  }
+  h5 {
+    font-size: 1rem;
+  }
+}
+
+.voting-center-details-div {
+  margin-top: 1rem;
+
+  h3 {
+    color: black;
+    font-weight: bold;
+  }
+  h4 {
+    font-size: 1.25rem;
+    color: black;
+  }
+  span {
+    font-weight: bold;
+  }
+}
+
+.icon-div {
+  width: 100vw; 
+  img {
+    width: 1.75rem;
+    margin-right: 1rem;
+    margin-bottom: -1rem;
+  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.voting-sticker-div {
+  width: 23%;
+  height: 10vh;
+  margin: 0 auto;
+  margin-top: 1rem;
+  padding: 1.5rem;
+  padding-top: 1rem;
+  border-radius: 25px 25px 25px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F5F5F5;
+  img {
+    margin-bottom: -1rem;
+  }
+
+  h3 {
+    color: blue;
+    font-weight: bold;
+  }
+}
