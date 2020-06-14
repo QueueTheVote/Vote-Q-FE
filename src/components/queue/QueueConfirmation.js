@@ -17,9 +17,9 @@ const QueueConfirmation = (props) => {
       <div className={'voting-center-details-div'}>
         <h3>{props.votingCenter}</h3>
         <h5>{props.address}</h5>
-        <iframe title='map' width="250" height="250" frameborder="0"
+        <iframe title='map' width="250" height="250" frameBorder="0"
         src={`https://www.google.com/maps/embed/v1/place?key=${API_KEY}
-          &q=Union+Station,Denver+CO`} allowfullscreen>
+          &q=Union+Station,Denver+CO`} allowFullScreen>
         </iframe>
         <div className="icon-div">
         <img src={pointer} alt='pointer'/>
