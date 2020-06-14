@@ -1,8 +1,6 @@
 import React, { useState, useContext } from "react";
 import { useHistory } from "react-router-dom";
 import { AppContext } from "../app/App";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 function HomeForm() {
   const history = useHistory();
@@ -33,7 +31,7 @@ function HomeForm() {
             onChange={(e) => changeAddress(e.target.value)}
           />
           <i role="button" onClick={handleSubmit}>
-            <FontAwesomeIcon icon={faSearch} />
+            <img className="search-icon ml-1" alt="search-icon" src="/assets/images/search.png"/>
           </i>
         </div>
       </div>
