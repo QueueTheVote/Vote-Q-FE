@@ -5,11 +5,13 @@ import { useHistory } from "react-router-dom";
 const CenterListItem = (props) => {
   const {
     id,
+    name,
     address,
     pollingHours,
     startDate,
     endDate,
     typeOfVote,
+    queuePopulation
   } = props;
 
   const history = useHistory();
