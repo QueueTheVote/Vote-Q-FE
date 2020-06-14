@@ -4,6 +4,8 @@
 
 **Developed as part of the Black Lives Matter Hackathon**
 
+
+
 ## Overview 
 
 This application was developed over the course of 4 days. It is built with React and React-Bootstrap on the FrontEnd with a Scala BackEnd and PostgreSQL database. The app consumes the Google Civic Information API as well as the Google Maps API. 
@@ -13,6 +15,33 @@ The idea of the application was inspired by recent primary elections in states l
 
 
 In the context of the Black Lives Matter movement, the application hopes to assist voters be prepared to overcome forms of voter suppression, while also providing a means to vote safely and efficiently during the Covid-19 pandemic, two forces that have disproportiontely impacted the Black community. 
+
+
+
+## Contributors 
+
+Jasna Rodulfa-Blemberg - Tech Lead / BE Dev - [JasnaMRB](https://github.com/JasnaMRB)
+
+
+Helen Liutongco  - FE Dev - [hliutongco](https://github.com/hliutongco)
+
+
+Marjorie Etienne - Researcher / FE Dev - [Schmarj3](https://github.com/Schmarj3)
+
+
+Erik Raith - FE Dev - [ERaith](https://github.com/ERaith)
+
+
+James Miller - Team Lead / FE Dev - [JamesRexMiller4](https://github.com/JamesRexMiller4)
+
+
+Marisa Ruiz Asari - Designer - asarm379@newschool.edu
+
+
+Caitlin Johnson - Product Manager
+
+
+
 
 
 ## Application Workflow
