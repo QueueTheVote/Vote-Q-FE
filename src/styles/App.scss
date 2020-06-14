@@ -1,9 +1,12 @@
 @import "~bootstrap/scss/bootstrap";
 @import "custom";
 
+
 // Custom Button Styling
 
 $newbtn: #00adb5;
+$earlyVoteBg:#FB5722;
+$votePurple:#725CFF;
 
 .btn-primary {
     @include button-variant($newbtn, darken($newbtn, 7.5%), darken($newbtn, 10%), lighten($newbtn,1%), lighten($newbtn, 3%), darken($newbtn,30%));
@@ -19,4 +22,15 @@ $newbtn: #00adb5;
 
 .App {
   text-align: center;
+}
+
+.padding-reset{
+  padding:0;
+}
+
+.bg-vote{
+  background-color: $votePurple;
+}
+.border-bg-vote{
+  border-color: $votePurple;
 }
