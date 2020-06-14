@@ -1,5 +1,5 @@
-import "../../styles/App.scss";
 import CenterContainer from "../votingcenter/CenterContainer";
+import CenterDetail from "../votingcenter/CenterDetail";
 import { Route, Redirect } from "react-router-dom";
 import React, { createContext, useReducer } from "react";
 import "../../styles/App.scss";
@@ -9,6 +9,7 @@ import NavigationBar from "../navbar/NavigationBar";
 const initialState = {
   address: null,
   votingCenters: [],
+  selectedCenter: null
 };
 
 const reducer = (state, action) => {
@@ -17,6 +18,8 @@ const reducer = (state, action) => {
       return { ...state, address: action.payload };
     case "updateCenterLocations":
       return { ...state, votingCenters: action.payload };
+    case "changeSelectedCenter":      
+      return { ...state, selectedCenter: action.payload };
     default:
       return state;
   }
@@ -24,7 +27,7 @@ const reducer = (state, action) => {
 
 function App() {
   const [state, dispatch] = useReducer(reducer, initialState);
-
+  
   return (
     <div className="App">
       <AppContext.Provider value={{ state, dispatch }}>
@@ -32,6 +35,9 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/voting-centers">
           {state.address ? <CenterContainer /> : <Redirect to="/" />}
+        </Route>
+        <Route path="/voting-centers/:id">
+          {state.selectedCenter ? <CenterDetail/> : <Redirect to="/" />}
         </Route>
       </AppContext.Provider>
     </div>

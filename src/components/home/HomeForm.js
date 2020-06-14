@@ -1,19 +1,24 @@
 import React, { useState, useContext } from "react";
+import { useHistory } from "react-router-dom";
 import { AppContext } from "../app/App";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 function HomeForm() {
+  const history = useHistory();
   const { dispatch } = useContext(AppContext);
   const [address, changeAddress] = useState(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!address) return;
+
     dispatch({
       type: "submitAddress",
       payload: address,
     });
+
+    history.push('/voting-centers');
   };
 
   return (

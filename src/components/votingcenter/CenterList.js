@@ -1,19 +1,21 @@
-import React, { useContext, useState, useEffect } from "react";
+import React, { useContext } from "react";
 import CenterListItem from "./CenterListItem";
 import { AppContext } from "../app/App";
 
-function CenterList({ address }) {
+function CenterList() {
   const { state } = useContext(AppContext);
 
   const renderCenterList = () => {
-    return state.votingCenters.map((location) => (
+    return state.votingCenters.map((location, index) => (
       <CenterListItem
+        id={index}
+        name={location.address.locationName}
         address={location.address}
         pollingHours={location.pollingHours}
-        startDate={location.startDate}
-        endDate={location.endDate}
+        queuePopulation = {location.currentQueue.capacity}
         typeOfVote="Election Day"
-        key={location.address.locationName}
+        name = {location.name}
+        key={location.name}
       />
     ));
   };
