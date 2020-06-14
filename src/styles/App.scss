@@ -1,6 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
 @import "custom";
 @import "HomePage";
+@import "CenterDetail";
 
 // Custom Button Styling
 
@@ -29,13 +30,17 @@ $votePurple:#725CFF;
   border-radius: 20px;
 }
 
+.card-header, .card-footer {
+  background-color: rgba(255,255,255,0);
+}
+
 .App {
   height: 100vh;
   text-align: center;
 }
 
 .margin-lg {
-  margin-top: 20vh;  
+  margin-top: 15vh;  
 }
 
 .padding-reset{
