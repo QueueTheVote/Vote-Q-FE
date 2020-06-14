@@ -1,5 +1,6 @@
 import React from 'react';
 import checkListData from './CheckListData';
+import './CheckList.scss'
 
 const CheckList = () => {
 
@@ -16,9 +17,16 @@ const CheckList = () => {
   }
 
   return ( 
-    <div>
-      <h2>Your Voting Checklist:</h2>
-      {generateCheckboxes(checkListData)}
+    <div className="">
+      <fieldset>
+        <legend>
+        <h2>Your Voting Checklist:</h2>
+        </legend>
+        <div className="checkboxes">
+          {generateCheckboxes(checkListData)}
+        </div>
+      </fieldset>
+      <a href="https://ballotpedia.org/Voting_in_Colorado"><strong>Acceptable Forms of ID in Colorado</strong></a>
     </div>
   );
 }

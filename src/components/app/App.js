@@ -5,6 +5,7 @@ import React, { createContext, useReducer } from "react";
 import "../../styles/App.scss";
 import Home from "../home/Home";
 import NavigationBar from "../navbar/NavigationBar";
+import CheckList from "../checklist/CheckList";
 
 const initialState = {
   address: null,
@@ -39,6 +40,7 @@ function App() {
         <Route path="/voting-centers/:id">
           {state.selectedCenter ? <CenterDetail/> : <Redirect to="/" />}
         </Route>
+        <Route path="/checklist" component={CheckList} />
       </AppContext.Provider>
     </div>
   );
