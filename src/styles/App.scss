@@ -6,20 +6,27 @@
 // Custom Button Styling
 
 $newbtn: #00adb5;
-$earlyVoteBg:#FB5722;
-$votePurple:#725CFF;
+$earlyVoteBg: #fb5722;
+$votePurple: #725cff;
 
 .btn-primary {
-    @include button-variant($newbtn, darken($newbtn, 7.5%), darken($newbtn, 10%), lighten($newbtn,1%), lighten($newbtn, 3%), darken($newbtn,30%));
+  @include button-variant(
+    $newbtn,
+    darken($newbtn, 7.5%),
+    darken($newbtn, 10%),
+    lighten($newbtn, 1%),
+    lighten($newbtn, 3%),
+    darken($newbtn, 30%)
+  );
 
-    border: none;
+  border: none;
 }
 
 // END Custom Button Styling
 
 .navbar-brand {
   height: 8vh;
-  
+
   img {
     height: 100%;
   }
@@ -30,8 +37,9 @@ $votePurple:#725CFF;
   border-radius: 20px;
 }
 
-.card-header, .card-footer {
-  background-color: rgba(255,255,255,0);
+.card-header,
+.card-footer {
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .App {
@@ -40,7 +48,7 @@ $votePurple:#725CFF;
 }
 
 .margin-lg {
-  margin-top: 15vh;  
+  margin-top: 15vh;
 }
 
 .card.border-bg-vote {
@@ -52,6 +60,14 @@ $votePurple:#725CFF;
   }
 }
 
-.active{
-  color:red!important;
+.active {
+  color: red !important;
+}
+
+.voting-centers {
+  .card {
+    border: none;
+    border-radius: 15px !important;
+    padding: 0 !important;
+  }
 }

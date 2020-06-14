@@ -8,8 +8,9 @@ input[type="radio"], input[type="checkbox"] {
   text-align: left;
 
   input[type="checkbox"] {
-    width: 1px;
-    height: 1px;
+    width: 1em;
+    height: 1em;
     padding: 8px;
+    margin-right: .2em;
   }
 }

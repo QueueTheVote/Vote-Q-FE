@@ -6,14 +6,15 @@ function CenterList() {
   const { state } = useContext(AppContext);
 
   const renderCenterList = () => {
-    return state.votingCenters.map((location, index) => (
+    return state.votingCenters.map((location) => (
       <CenterListItem
-        id={index}
+        id={location.id}
         address={location.address}
         pollingHours={location.pollingHours}
-        queuePopulation = {location.currentQueue.capacity}
+        queuePopulation={location.currentQueue.size}
+        queue = {location.currentQueue}
         typeOfVote="Election Day"
-        name = {location.name}
+        name={location.name}
         key={location.name}
       />
     ));
