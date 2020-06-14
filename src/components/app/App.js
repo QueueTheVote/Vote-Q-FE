@@ -5,6 +5,7 @@ import React, { createContext, useReducer } from "react";
 import "../../styles/App.scss";
 import Home from "../home/Home";
 import NavigationBar from "../navbar/NavigationBar";
+import CheckList from "../checklist/CheckList";
 import QueueConfirmation from '../queue/QueueConfirmation';
 
 const initialState = {
@@ -40,6 +41,7 @@ function App() {
         <Route path="/voting-centers/:id">
           {state.selectedCenter ? <CenterDetail/> : <Redirect to="/" />}
         </Route>
+        <Route path="/checklist" component={CheckList} />
         <Route path="/confirmation">
           {true  ? <QueueConfirmation votingCenter={'Union Station'}
           distance={'20'} address={'1701 Wynkoop St, Denver, CO 80211'}
