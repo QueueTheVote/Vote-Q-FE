@@ -11,7 +11,7 @@ export default function NavigationBar({match,location}) {
         <div className="col-12 p-0">
             <Navbar bg="light" variant="light" expand="lg" sticky="top">
               <Navbar.Brand>
-                <Link to="/"><img className="pl-2" src="../assets/images/logo-purple.svg"/></Link>
+                <Link to="/"><img className="pl-2" alt="Voting Q" src="../assets/images/logo-purple.svg"/></Link>
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
