@@ -1,0 +1,40 @@
+
+.img-top-right {
+  height: 8vh;
+  
+  img {
+    height: 100%;
+  }
+}
+
+.img-bottom-left {
+  height: 55vh;
+  position: fixed;
+  bottom: 0; left: 0;
+  z-index: -2;
+}
+
+.img-bottom-right {
+  height: 35vh;
+  position: fixed;
+  bottom: 0; right: 0;
+  z-index: -1;
+}
+
+.home-container {
+  overflow: hidden;
+}
+
+.home {
+  position: relative;
+
+  img {
+    opacity: 0.1;
+    position: absolute;
+    top: -12vh;
+  }
+}
+
+.search-icon {
+  width: calc(15px + 0.75vw);
+}

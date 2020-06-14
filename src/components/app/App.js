@@ -1,6 +1,6 @@
 import CenterContainer from "../votingcenter/CenterContainer";
 import CenterDetail from "../votingcenter/CenterDetail";
-import { Route, Redirect } from "react-router-dom";
+import { Link, Route, Redirect } from "react-router-dom";
 import React, { createContext, useReducer } from "react";
 import "../../styles/App.scss";
 import Home from "../home/Home";
@@ -29,6 +29,9 @@ function App() {
   
   return (
     <div className="App">
+      <div className="img-top-right">
+        <Link to="/"><img src="../assets/images/logo-purple.svg"/></Link>
+      </div>
       <AppContext.Provider value={{ state, dispatch }}>
         <Route exact path="/">
          <Home />

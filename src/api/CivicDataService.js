@@ -12,7 +12,7 @@ const address = {
 // https://www.googleapis.com/civicinfo/v2/voterinfo?address=80232&electionId=2000&key=[YOUR_API_KEY]
 
 export const getAll = async () => {
-  let url = 'https://secret-island-31781.herokuapp.com/centers?electionId=2000&street1=101%20Baker%20St&city=New%20York&state=NY'
+  let url = 'https://secret-island-31781.herokuapp.com/centers?electionId=4977&street1=101%20Baker%20St&city=New%20York&state=NY'
     // LOCATIONS_URL +
     // "address=" +
     // address.street +

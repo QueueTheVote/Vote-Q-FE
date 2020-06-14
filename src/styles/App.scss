@@ -1,5 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 @import "custom";
+@import "HomePage";
 
 
 // Custom Button Styling
@@ -16,45 +17,26 @@ $votePurple:#725CFF;
 
 // END Custom Button Styling
 
-.img-bottom-right {
-  height: 40vh;
-  position: fixed;
-  bottom: 0; right: 0;
-  z-index: -1;
-}
-
-.home {
-  position: relative;
-
-  img {
-    opacity: 0.1;
-    position: absolute;
-    top: -12vh;
-  }
-}
-
-.search-icon {
-  width: calc(15px + 0.75vw);
-}
-
 .card {
   border: none;
   border-radius: 20px;
 }
 
 .App {
+  height: 100vh;
   text-align: center;
 }
 
 .margin-lg {
-  margin-top: 25vh;  
+  margin-top: 20vh;  
 }
 
 .padding-reset{
   padding:0;
 }
 
-.bg-vote{
+.bg-vote:first-child{
+  border-radius: 15px 15px 0 0;
   background-color: $votePurple;
 }
 .border-bg-vote{
