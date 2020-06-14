@@ -8,8 +8,6 @@ const CenterListItem = (props) => {
     name,
     address,
     pollingHours,
-    startDate,
-    endDate,
     typeOfVote,
     queuePopulation
   } = props;

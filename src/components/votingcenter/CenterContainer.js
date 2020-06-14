@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useEffect, useContext } from "react";
 import { AppContext } from "../app/App";
 import CenterList from "./CenterList";
 import CivicDataService from "../../api/CivicDataService";
@@ -15,12 +15,12 @@ function CenterContainer() {
         payload: response,
       });
     });
-  }, [state.address]);
+  }, [state.address,dispatch]);
 
   return (
     <div className="row d-flex justify-content-center mt-2">
-      <div className="col-8">
-      <header>
+      <div className="col-10">
+      <header className="my-4">
         <h3>Your Voting Centers</h3>
       </header>
         <CenterList />
