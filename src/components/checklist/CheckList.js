@@ -1,32 +1,34 @@
 import React from 'react';
 import checkListData from './CheckListData';
-import './CheckList.scss'
+import '../../styles/CheckList.scss'
 
 const CheckList = () => {
 
   const generateCheckboxes = (data) => {
     return data.map((val, idx) => {
       return (
-      <div>
-        <input key={idx} id={val} type="checkbox" 
-        value={val} />
-        <label key={idx + "-label"}htmlFor="checkListItem">{val}</label>
+      <div key={idx}>
+        <input id={val} type="checkbox" value={val} />
+        <label key={idx + "-label"} htmlFor="checkListItem">{val}</label>
       </div>
       )
     })
   }
 
   return ( 
-    <div className="">
-      <fieldset>
+    <div>
+      <fieldset className="row">
         <legend>
-        <h2>Your Voting Checklist:</h2>
+        <h4>Your Voting Checklist</h4>
         </legend>
-        <div className="checkboxes">
-          {generateCheckboxes(checkListData)}
+        <div className="checkboxes col-12 d-flex justify-content-center">
+          <div>
+            {generateCheckboxes(checkListData)}
+          </div>
         </div>
       </fieldset>
-      <a href="https://ballotpedia.org/Voting_in_Colorado"><strong>Acceptable Forms of ID in Colorado</strong></a>
+      <p><small>Click below to see a list of acceptable ID in Colorado.</small></p>
+      <a href="https://ballotpedia.org/Voting_in_Colorado" target="/blank" className="btn btn-primary">Click Here</a>
     </div>
   );
 }

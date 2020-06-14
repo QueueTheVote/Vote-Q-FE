@@ -24,7 +24,7 @@ const CenterListItem = (props) => {
   }
 
   return (
-    <article className="card padding-reset border-bg-vote col-md-5 mb-3 ml-1 mr-1">
+    <article className="card p-0 border-bg-vote col-12 mb-3 ml-1 mr-1">
       <div className="card-header bg-vote text-left text-white">
         {typeOfVote.toUpperCase()}
       </div>

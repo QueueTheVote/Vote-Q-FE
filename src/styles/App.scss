@@ -43,16 +43,13 @@ $votePurple:#725CFF;
   margin-top: 15vh;  
 }
 
-.padding-reset{
-  padding:0;
-}
+.card.border-bg-vote {
+  border-radius: 15px;
 
-.bg-vote:first-child{
-  border-radius: 15px 15px 0 0;
-  background-color: $votePurple;
-}
-.border-bg-vote{
-  border-color: $votePurple;
+  .bg-vote:first-child{
+    border-radius: 15px 15px 0 0;
+    background-color: $votePurple;
+  }
 }
 
 .active{
