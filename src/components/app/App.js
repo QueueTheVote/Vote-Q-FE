@@ -6,6 +6,7 @@ import "../../styles/App.scss";
 import Home from "../home/Home";
 import NavigationBar from "../navbar/NavigationBar";
 import CheckList from "../checklist/CheckList";
+import QueueConfirmation from '../queue/QueueConfirmation';
 
 const initialState = {
   address: null,
@@ -41,6 +42,12 @@ function App() {
           {state.selectedCenter ? <CenterDetail/> : <Redirect to="/" />}
         </Route>
         <Route path="/checklist" component={CheckList} />
+        <Route path="/confirmation">
+          {true  ? <QueueConfirmation votingCenter={'Union Station'}
+          distance={'20'} address={'1701 Wynkoop St, Denver, CO 80211'}
+          queueNum={'15'} eta={'25'} confirmationID={'GF14L7'}
+          /> : <Redirect to="/" />}
+        </Route>
       </AppContext.Provider>
     </div>
   );

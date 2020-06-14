@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28.455" height="28.455" viewBox="0 0 28.455 28.455">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="Icon_feather-mouse-pointer" data-name="Icon feather-mouse-pointer" transform="translate(1.5 1.5)">
+    <path id="Path_8" data-name="Path 8" class="cls-1" d="M29.955,4.5,19.35,29.955,15.585,18.87,4.5,15.1Z" transform="translate(-4.5 -4.5)"/>
+  </g>
+</svg>

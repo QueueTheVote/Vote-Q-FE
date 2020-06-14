@@ -1,0 +1,93 @@
+@import '../../../custom.scss';
+
+.queue-confirmation-main {
+  padding-top: .5rem;
+  background-color: #eeeeee;
+  height: 90vh;
+  h2 {
+    color: $primary;
+    font-weight: bold;
+  }
+  h4 {
+    font-weight: 300;
+    color: rgb(156, 156, 156);
+    padding-top: 1rem;
+  }
+  h3 {
+    color: black;
+    margin-top: 2rem;
+    span {
+      font-weight: bold;
+    }
+  }
+  h5 {
+    font-size: 1rem;
+  }
+}
+
+.voting-center-details-div {
+  margin-top: 1rem;
+
+  h3 {
+    color: black;
+    font-weight: bold;
+  }
+  h4 {
+    font-size: 1.25rem;
+    color: black;
+  }
+  h5 {
+    color: black;
+  }
+  span {
+    font-weight: bold;
+  }
+}
+
+.icon-div {
+  width: 100vw; 
+  img {
+    width: 1.75rem;
+    margin-right: 1rem;
+    margin-bottom: -1rem;
+  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.graphics-queue-section {
+  background-image: url('../../assets/images/confetti.svg');
+  display: flex;
+  align-items: baseline;
+  .human-img {
+    width: 4rem;
+  }
+  margin-top: 1rem;
+}
+
+.voting-sticker-div {
+  width: 50vw;
+  height: 10vh;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 2rem;
+  padding-top: 1rem;
+  border-radius: 50px 50px 50px 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #F5F5F5;
+  img {
+    margin-bottom: -1rem;
+    width: 1.25rem;
+    margin-right: .25rem;
+  }
+
+  h3 {
+    color: blue;
+    font-weight: bold;
+    font-size: 1.15rem;
+  }
+}
