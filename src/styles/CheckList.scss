@@ -6,5 +6,11 @@ input[type="radio"], input[type="checkbox"] {
 
 .checkboxes {
   text-align: left;
-  margin-left: 10vw;
+
+  input[type="checkbox"] {
+    width: 1em;
+    height: 1em;
+    padding: 8px;
+    margin-right: .2em;
+  }
 }

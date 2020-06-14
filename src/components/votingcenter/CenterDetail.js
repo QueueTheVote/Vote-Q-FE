@@ -22,7 +22,7 @@ function CenterDetail() {
 
   return (
     <div className="row d-flex justify-content-center mt-4">
-      <div className="col-10 center-detail">
+      <div className="col-11 center-detail">
         <div className="header p-4">
           <h1>{name}</h1>
           <h6>{street1} {city}, {centerState} {zip}</h6>
@@ -33,7 +33,7 @@ function CenterDetail() {
         <div className="card p-0">
           <div className="card-header row d-flex m-0 py-4 px-0">
             <div className="col-6 text-right pl-0">
-              <img src="../assets/images/people.svg"/>
+              <img alt="person walking" src="../assets/images/people.svg"/>
             </div>
             <div className="col-6 p-0">
               <h6>Queue Length</h6>

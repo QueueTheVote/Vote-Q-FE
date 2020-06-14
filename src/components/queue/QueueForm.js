@@ -1,8 +1,7 @@
 import React, { useContext } from "react";
-
 import { AppContext } from "../app/App";
-//Move to Add a Queue Location
 import { postToQueue } from "../../api/CivicDataService";
+import { Link } from "react-router-dom";
 
 export default function QueueForm() {
   const { state, dispatch } = useContext(AppContext);
@@ -37,7 +36,7 @@ export default function QueueForm() {
   return (
     <div>
       <button className="btn btn-primary" onClick={() => handleClick()}>
-        Join Queue!
+        <Link to="/confirmation">Join Queue!</Link>
       </button>
     </div>
   );

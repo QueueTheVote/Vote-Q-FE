@@ -12,8 +12,9 @@ function Home(props) {
         <div className="card col-9">
           <div className="card-body">
             <p>
-              Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Morbi mauris lectus, efficitur eu blandit quis, auctor a mauris.
+              Welcome! Find a nearby voting center and join a queue today.
             </p>
+            <p>Type in your <strong>address</strong> or <strong>zip code</strong> below to get started.</p>
             <HomeForm/>
           </div>
         </div>
