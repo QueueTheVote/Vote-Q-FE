@@ -9,7 +9,6 @@ function CenterContainer() {
   // this useEffect is just to check the value, you can totally remove it
   useEffect(() => {
     CivicDataService.getAll().then((response) => {
-      console.log(response)
       dispatch({
         type: "updateCenterLocations",
         payload: response,
@@ -21,7 +20,7 @@ function CenterContainer() {
     <div className="row d-flex justify-content-center mt-2">
       <div className="col-10">
       <header className="my-4">
-        <h3>Your Voting Centers</h3>
+        <h2>Your Voting Centers</h2>
       </header>
         <CenterList />
       </div>

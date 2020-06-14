@@ -1,0 +1,41 @@
+.center-detail {
+  
+  .header {
+    background-color: #FE9C21;
+    border-radius: 15px 15px 0 0;
+
+    h1, h6 {
+      font-weight: 700;
+      color: $secondary;
+    }
+
+    h1 {
+      font-size: 1.3em;
+    }
+  
+    h6 {
+      font-size: 0.8em;
+    }
+  }
+
+  .card {
+    border-radius: 0 0 15px 15px;
+
+    h2,h6 {
+      text-align: left;
+    }
+
+    h2 {
+      font-weight: 700;
+    }
+
+    h6 {
+      font-size: 0.9em;
+      font-weight: 200;
+    }
+
+    img {
+      height: 9vh;
+    }
+  }
+}
