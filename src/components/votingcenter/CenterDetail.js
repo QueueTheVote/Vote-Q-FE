@@ -1,7 +1,6 @@
 import React, {useContext} from "react";
 import QueueContainer from "../queue/QueueContainer";
 import { AppContext } from "../app/App";
-import { Link } from 'react-router-dom';
 
 function CenterDetail() {
   const {state} = useContext(AppContext);
@@ -10,7 +9,6 @@ function CenterDetail() {
   const {street1, city, centerState, zip} = address;
   
   const queueUpdateAction = (queue) => {
-    console.log(queue);
     let updatedQueue = state.votingCenters.map((votingCenter) => {
       if (votingCenter.id === queue.id) {
         votingCenter.currentQueue = queue;
