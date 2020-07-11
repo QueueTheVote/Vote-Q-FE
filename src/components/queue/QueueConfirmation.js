@@ -7,14 +7,11 @@ import pointer from '../../assets/images/pointer.svg';
 import hourglass from '../../assets/images/hourglass.svg';
 import humanStanding from '../../assets/images/humaaans-standing-11.svg';
 import humanSitting from '../../assets/images/humaaans-sitting-4.svg';
-import { useLocation } from 'react-router-dom';
 
 const API_KEY = process.env.REACT_APP_API_KEY;
 
 const QueueConfirmation = (props) => {
   const {state}  = useContext(AppContext);
-  console.log(state)
-  let location = useLocation();
   const { selectedCenter } = state;
   let formattedCenterName = selectedCenter.name.split(' ').join('+');
   let formattedCityState = `${selectedCenter.address.city}+${selectedCenter.address.state}`;
@@ -28,9 +25,9 @@ const QueueConfirmation = (props) => {
         <h5>{selectedCenter.address.street1 + ", " + 
         selectedCenter.address.city + ", "+ selectedCenter.address.state +
         " " + selectedCenter.address.zip}</h5>
-        <iframe title='map' width="250" height="250" frameborder="0"
+        <iframe title='map' width="250" height="250" frameBorder="0"
         src={`https://www.google.com/maps/embed/v1/place?key=${API_KEY}
-          &q=${formattedCenterName},${formattedCityState}`} allowfullscreen>
+          &q=${formattedCenterName},${formattedCityState}`} allowFullScreen>
         </iframe>
         <div className="icon-div">
         <img src={pointer} alt='pointer'/>

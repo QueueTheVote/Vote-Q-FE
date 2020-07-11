@@ -5,7 +5,6 @@ import React, { createContext, useReducer } from "react";
 import "../../styles/App.scss";
 import Home from "../home/Home";
 import NavigationBar from "../navbar/NavigationBar";
-import CheckList from "../checklist/CheckList";
 import QueueConfirmation from "../queue/QueueConfirmation";
 
 const initialState = {
