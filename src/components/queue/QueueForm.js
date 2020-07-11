@@ -5,9 +5,8 @@ import { Link } from "react-router-dom";
 
 export default function QueueForm() {
   const { state, dispatch } = useContext(AppContext);
-
+  
   const queueUpdateAction = (queue) => {
-    console.log(queue);
     let updatedQueue = state.votingCenters.map((votingCenter) => {
       if (votingCenter.id === queue.id) {
         votingCenter.currentQueue = queue;
@@ -35,7 +34,7 @@ export default function QueueForm() {
 
   return (
     <div>
-      <Link to="/confirmation">
+      <Link to={`/voting-centers/${state.selectedCenter.id}/confirmation`}>
         <button className="btn btn-primary" onClick={() => handleClick()}>
           Join Queue!
         </button>

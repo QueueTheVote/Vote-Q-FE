@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { AppContext } from '../app/App';
 import './QueueConfirmation.scss';
 import people from '../../assets/images/people.svg';
 import flag from '../../assets/images/flag-usa.svg';
@@ -10,16 +11,23 @@ import humanSitting from '../../assets/images/humaaans-sitting-4.svg';
 const API_KEY = process.env.REACT_APP_API_KEY;
 
 const QueueConfirmation = (props) => {
+  const {state}  = useContext(AppContext);
+  const { selectedCenter } = state;
+  let formattedCenterName = selectedCenter.name.split(' ').join('+');
+  let formattedCityState = `${selectedCenter.address.city}+${selectedCenter.address.state}`;
+
   return ( 
     <main className='queue-confirmation-main'>
       <h2>Thanks for joining!</h2>
       <h4>you're in the queue for...</h4>
       <div className={'voting-center-details-div'}>
-        <h3>{props.votingCenter}</h3>
-        <h5>{props.address}</h5>
-        <iframe title='map' width="250" height="250" frameborder="0"
+        <h3>{selectedCenter.name}</h3>
+        <h5>{selectedCenter.address.street1 + ", " + 
+        selectedCenter.address.city + ", "+ selectedCenter.address.state +
+        " " + selectedCenter.address.zip}</h5>
+        <iframe title='map' width="250" height="250" frameBorder="0"
         src={`https://www.google.com/maps/embed/v1/place?key=${API_KEY}
-          &q=Union+Station,Denver+CO`} allowfullscreen>
+          &q=${formattedCenterName},${formattedCityState}`} allowFullScreen>
         </iframe>
         <div className="icon-div">
         <img src={pointer} alt='pointer'/>
@@ -27,11 +35,11 @@ const QueueConfirmation = (props) => {
         </div>
         <div className="icon-div">
           <img src={people} alt='people'/>
-          <h4><span>{props.queueNum}</span> people ahead of you</h4>
+          <h4><span>{selectedCenter.queuePopulation}</span> people ahead of you</h4>
         </div>
         <div className="icon-div">
           <img src={hourglass} alt='hourglass'/>
-          <h4><span>{props.eta}</span> minutes before you're up!</h4>
+          <h4><span>{5}</span> minutes before you're up!</h4>
         </div>
       </div>
       <section className='graphics-queue-section'>

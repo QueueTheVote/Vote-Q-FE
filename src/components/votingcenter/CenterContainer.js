@@ -8,7 +8,7 @@ function CenterContainer() {
 
   // this useEffect is just to check the value, you can totally remove it
   useEffect(() => {
-    if(state.votingCenters.length==0){
+    if(state.votingCenters.length === 0){
       CivicDataService.getAll().then((response) => {
         dispatch({
           type: "updateCenterLocations",
